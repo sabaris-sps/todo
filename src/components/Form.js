@@ -23,7 +23,7 @@ const Form = ({ setStatus, inputText, todos, setTodos, setInputText }) => {
   };
 
   return (
-    <div>
+    <div className="form">
       <form>
         <input
           onChange={inputTextHandler}
