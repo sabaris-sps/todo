@@ -29,6 +29,7 @@ form button {
     font-size: 2rem;
     border: none;
     background: white;
+    outline: none;
 }
 
 form button {
@@ -83,8 +84,16 @@ form button:hover {
     font-size: 1rem;
 }
 
+.trash-btn:hover {
+    background: #d85e3c;
+}
+
 .complete-btn {
-    background: rgb(11, 212, 162);
+    background: #0bd4a2;
+}
+
+.complete-btn:hover {
+    background: #0abd90;
 }
 
 .todo-item {
